@@ -1,0 +1,80 @@
+/* Entire body section */
+*{
+    /* background-color: antiquewhite; */
+    font-size: medium;
+    font-style: italic;
+    margin: 10px;
+    padding: 10px;
+    border: hidden;
+ }
+ body{
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }
+ header{
+   top:0%;
+   text-align: left;
+   display: flex;
+   justify-content:space-around;
+   background-color: black;
+   color:aliceblue;
+}
+   ul{
+   list-style-type: none;
+   
+ }
+ /* end of entire body section  */
+
+ /* navigation start here */
+ nav{
+text-align: center;
+float: left;
+padding: 10px;
+border-radius: 25px;
+height: 400px;
+ }
+/* end of navigation bar */
+/* navigation unordered list */
+ nav ul{
+    list-style-type: none;
+ }
+
+ /* article section start here */
+ article{
+    text-align: center;
+    float: left;
+    padding: 10px;
+    border-radius: 25px;
+    height: 400px;
+ }
+ /* end of article section */
+
+ /* footer section */
+ footer{
+    text-align: center;
+
+    bottom: 0px;
+    width: 100vh;
+    background-color: gray;
+ }
+ /* end of footer section */
+
+ /* div header */
+ div.header{
+    background-color:black;
+    font-size: larger;
+    color:aliceblue;
+    top: 0%;
+    justify-content: space-between;
+    position: fixed;
+    
+ }
+ /* SPAN sectioN */
+ span{
+   color:blue;
+   text-transform:uppercase;
+   }
+   #prakku{
+      font-size: larger;
+      position: relative;
+      z-index: 1;
+   }

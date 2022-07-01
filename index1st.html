@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="http://cdn.onlinewebfonts.com/svg/img_354410.png">
+        <title>Practice Purpose</title>
+        <style>
+    span{
+    display: block;
+    }
+    table,td,th,td{
+        border: solid black 1px;
+        text-align: center;
+        background-color:silver;
+    }
+    th{
+        font-size: 20px;
+        color:Red;
+        background-color: White;
+        padding:5px;
+    }
+    form{
+        border:5px ;
+        color:blue;
+        background-color:beige;
+        border-radius: 25px 25px;
+        border: solid black ;
+        margin:20px;
+        padding-left: 30%;    
+        text-align:left;
+
+    }
+    .PositionSticky{
+                position: sticky;
+                text-align: center;
+                border: 2pc black;
+                background-color: aquamarine;
+            
+            }
+        </style>
+    </head>
+    <body>
+        <h1>first heading</h1>
+        <h2>second heading</h2>
+        <h3>third heading</h3>
+        <h4>fourth heading</h4>
+        <h5>fifth heading</h5>
+        <h6>sixth heading</h6>
+        <p>this is p tag</p>
+        <pre>this is pre tag</pre><br><br>
+        
+        <div class="PositionSticky">
+            <h1>here we are using positioning of container</h1>
+            <div class="PositionSticky">
+               <h1> I think this line should be there on the top of the Page</h1>
+            </div>
+    
+
+        <p align="center"><img src="https://writology.com/wp-content/uploads/2021/07/businessblog-1.jpg" height="200px" width="300px"></p>
+        <h4>Karthikeya 2 (Trailer)</h4>
+        <iframe width="50%" style="padding" height="315px" src="https://www.youtube.com/embed/UIYS4iyeXj4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        
+        <h2>all type of text properties within the block with span using class</h2>
+       <span> <i>this is italic one</i></span>
+        <span><small>this is smaller one</small></span>
+      <span><strong>this is stronger one</strong></span> 
+       <span><mark>this is marked one</mark></span>
+        <span><b>this is bold one</b></span>
+        <span><em>this is emposis one</em></span>
+
+        <h3>Table in Row wise</h3>
+        <table>
+            <tr>
+            <th>Name</th>
+            <th>roll no.</th>
+            <th>marks</th>
+            <th>grade</th>
+            <th>institue name</th>
+        </tr>
+        <tr>
+            <td>Prakhyath</td>
+            <td>1</td>
+            <td><mark>75</mark></td>
+            <td>A</td>
+            <td>self</td>
+        </tr>
+        <tr>
+            <td>Swaroop</td>
+            <td>2</td>
+            <td>76</td>
+            <td>A</td>
+            <td>Self</td>
+        </tr>
+        <tr>
+            <td>Pashi</td>
+            <td>3</td>
+            <td>77</td>
+            <td>A</td>
+            <td>Self</td>
+        </tr>
+        <tr>
+            <td>Shiva</td>
+            <td>4</td>
+            <td><i style="color:red; background: skyblue">78</i></td>
+            <td>A</td>
+            <td>Self</td>
+        </tr>
+        <tr>
+            <td>Akhil</td>
+            <td>5</td>
+            <td>79</td>
+            <td>A</td>
+            <td>Self</td>
+        </tr>
+        <tr>
+            <td><i style="color:green; background: cyan"> Vijay</i></td>
+            <td>6</td>
+            <td>80</td>
+            <td>A</td>
+            <td>Self</td>
+        </tr>
+        </table>
+    
+        <h3>Table in Column wise</h3>
+        <table>
+            <tr>
+            <th>Name</th>
+            <td>Prakhyath</td>
+            <td>Swaroop</td>
+            <td>Pashi</td>
+            <td>Shiva</td>
+            <td>Akhil</td>
+            <td>Vijay</td>
+
+            
+           
+        </tr>
+        <tr>
+            <th>roll no.</th>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+
+            
+
+        </tr>
+        <tr>
+            <th>marks</th>
+            <td>75</td>
+            <td>76</td>
+            <td>77</td>
+            <td>78</td>
+            <td>79</td>
+            <td>80</td>
+
+        </tr>
+        <tr>
+            <th>grade</th>
+            <td>A</td>
+            <td>A</td>
+            <td>A</td>
+            <td>A</td>
+            <td>A</td>
+            <td>A</td>
+
+        </tr>
+        <tr>
+            <th>institue name</th>
+            <td>Self</td>
+            <td>Self</td>
+            <td>Self</td>
+            <td>Self</td>
+            <td>self</td>
+            <td>Self</td>
+        </tr>
+        </table>
+        
+       <form>
+            <h1>Enter Your Name Here:</h1>
+            <label for="first name">First Name:</label>
+            <input type="text" name="First Name:" id="firstname"><br>
+            <label for="last  name">Last  Name:</label>
+            <input type="text" name="Last Name:" id="lastname">
+            <h2>Enter Your Gender Here:</h2>
+            <input type="radio" name="radio-gender" value="Male">
+            <label for="Male">Male</label><br>
+            <input type="radio" name="radio-gender" value="Female">
+            <label for="Female">Female</label><br>
+            <input type="radio" name="radio-gender" value="Others">
+            <label for="Others">Others</label><br>
+            <h2>Enter Your Interests</h2>
+            <input type="checkbox" name="checkbox" value="Java">
+            <label for="Java">Java</label><br>
+            <input type="checkbox" name="checkbox" value="Python">
+            <label for="Python">Python</label><br>
+            <input type="checkbox" name="checkbox" value="C++">
+            <label for="C++">C++</label><br>
+            <input type="checkbox" name="checkbox" value="C#">
+            <label for="C#">C#</label><br>
+            <input type="checkbox" name="checkbox" value="Javascript">
+            <label for="Javascript">Javascript</label><br>
+            <input type="checkbox" name="checkbox" value="Core-Java">
+            <label for="Core-Java">Core-Java</label> <br>
+            <a href="https://www.youtube.com/">youtube</a>
+            <h4>Enter your region</h4>
+            <select name="dropdown" size="4">
+                <option value="Hyderabad">Hyderabad</option>
+                <option value="Banglore">Banglore</option>
+                <option value="Chennai">Chennai</option>
+                <option value="Mumbai">Mumbai</option>
+                <option value="Kolkata">Kolkata</option>
+                <option value="Ahmedabad">Ahmedabad</option>
+            </select><br><br><br>
+            <p align="center"><input type="submit" name="submit" value="submit"></p>
+            </form>
+            <h4>College Memories</h4>
+            <video controls>
+                <source src="memory.mp4" type="video/mp4" width="300px" height="200px">
+            </video>
+            <h4>custmer_care discussion</h4>
+            <audio src="custmer_care.mp3" type="audio/mp3" controls>  </audio>
+                <!-- <h4>Here we are taking both video and audio from the website</h4> -->
+                
+      
+    </body>
+</html>
